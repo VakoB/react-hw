@@ -8,7 +8,7 @@ const Container = styled.div`
   align-items: center;
   border: 1px solid #ff4b33;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin-block: 10px;
   padding: 10px 20px;
   border-radius: 25px;
@@ -18,6 +18,7 @@ const NameContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 5px;
+  padding-right: 10px;
   border-right: #ff4b33 solid 1px;
 `;
 

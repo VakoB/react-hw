@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
-import { RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router";
 import router from "./router.tsx";
-import GlobalStyles from "./globalStyles.ts";
+import GlobalStyles from "./GlobalStyles.ts";
 
 createRoot(document.getElementById("root")!).render(
   <>
